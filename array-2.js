@@ -45,3 +45,4 @@ nums.forEach(n => {
 });
 
 console.log("số 5 có" + " " + count5 + " " + "lần" )
+
