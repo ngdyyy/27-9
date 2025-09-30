@@ -1,4 +1,4 @@
-const nums = [1,2,,2,4,2,5,3,3,2]
+const nums = [1,2,3,2,4,2,5,3,3,3,2]
 
 const so1 = nums.filter(n => n === 1);
 let count1 = 0;
@@ -43,4 +43,5 @@ nums.forEach(n => {
         count5++;
     }
 });
+
 console.log("số 5 có" + " " + count5 + " " + "lần" )
